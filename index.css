@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 123, 255, 1) 0%, rgba(0, 100, 255, 1) 100%);
+    color: white;
+    padding: 10px 0;
+    z-index: 1000;
+    transition: 0.3s, color 0.3s;
+
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #FFD700;
+}
+
+.content {
+    padding-top: 60px;
+
+}
+
+section {
+    padding: 50px;
+    margin: 10px;
+
+    text-align: center;
+}
+
+#home {
+    background-color: pink;
+}
+
+#home:hover {
+    background-color: blue;
+}
+
+#about {
+    background-color: #FFD700;
+}
+
+#about:hover {
+    background-color: brown;
+}
+
+#services {
+    background-color: chartreuse;
+}
+
+#services:hover {
+    background-color: blueviolet;
+}
+
+#contact {
+    background-color: orangered;
+}
+
+#contact:hover {
+    background-color: hotpink;
+}
